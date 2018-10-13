@@ -20,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        final Button freeformButton = findViewById(R.id.freeform_button);
-        final Button promptsButton = findViewById(R.id.prompt_button);
-        final Button quizButton = findViewById(R.id.quiz_button);
+        Button freeformButton = findViewById(R.id.freeform_button);
+        Button promptsButton = findViewById(R.id.prompt_button);
+        Button quizButton = findViewById(R.id.quiz_button);
 
         freeformButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void toQuiz() {
         Log.d(TAG, "To Quizzes");
-//        Intent intent = new Intent(this, Quiz.class);
-//        startActivity(intent);
+        Intent intent = new Intent(this, QuizActivity.class);
+        startActivity(intent);
     }
 }

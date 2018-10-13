@@ -47,9 +47,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void toFreeform() {
-        Log.d(TAG, "To Freeform");
-//        Intent intent = new Intent(this, .class);
-//        startActivity(intent);
+       Log.d(TAG, "To Freeform");
+       Intent intent = new Intent(this, TextBoxActivity.class);
+       startActivity(intent);
+
     }
 
     private void toPrompts() {

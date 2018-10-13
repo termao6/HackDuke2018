@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HackDuke2018.iml" filepath="$PROJECT_DIR$/HackDuke2018.iml" />
+      <module fileurl="file://C:\Users\Joyce\AndroidStudioProjects\HackDuke2018\HackDuke2018.iml" filepath="C:\Users\Joyce\AndroidStudioProjects\HackDuke2018\HackDuke2018.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Joyce\AndroidStudioProjects\HackDuke2018\app\app.iml" filepath="C:\Users\Joyce\AndroidStudioProjects\HackDuke2018\app\app.iml" />
     </modules>
   </component>
 </project>
